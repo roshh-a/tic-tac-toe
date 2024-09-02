@@ -72,7 +72,10 @@ function Board() {
     }
   }
 }
-export default function Game() {
+export default function Game() { //top-level component 
+  // const [xIsNext, setXIsNext] = useState(true); //a boolean to keep track of player's turn
+  // const [history, setHistory] = useState([Array(9).fill(null)]);
+  // const currentSquares = history[history.length - 1];
   return (
     <div className='game'>
       <div className='game-board'>
